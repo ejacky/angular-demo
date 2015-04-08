@@ -1,0 +1,21 @@
+<!doctype html>
+<html ng-app="project">
+<head>
+    <script src="angular.min.js"></script>
+    <script src="angular-resource.min.js">
+    </script>
+    <script src="angular-route.min.js">
+    </script>
+    <script src="firebase.js"></script>
+    <script src="angularfire.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="project.js"></script>
+</head>
+<body>
+<script>
+    new Firebase();
+</script>
+<h2>JavaScript Projects</h2>
+<div ng-view></div>
+</body>
+</html>
